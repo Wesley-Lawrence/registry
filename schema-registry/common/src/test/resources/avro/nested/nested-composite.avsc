@@ -1,0 +1,19 @@
+{
+  "namespace": "nested",
+  "name": "Composite",
+  "type": "record",
+  "includeSchemas": [
+    {
+      "name": "nested.SimpleRecord"
+    },
+    {
+      "name": "nested.Record_A"
+    }
+  ],
+  "fields": [
+    {
+      "name": "uuid",
+      "type": "string"
+    }
+  ]
+}
